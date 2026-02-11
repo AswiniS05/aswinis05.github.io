@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aswini S | Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo">ASWINI S</div>
+    <ul>
+        <li onclick="showSection('home')">Home</li>
+        <li onclick="showSection('skills')">Skills</li>
+        <li onclick="showSection('projects')">Projects</li>
+        <li onclick="showSection('contact')">Contact</li>
+    </ul>
+</nav>
+
+<div class="container">
+
+    <!-- HOME -->
+    <section id="home" class="section active hero">
+        <h1>Aswini S</h1>
+        <h2>Java Developer | Problem Solver</h2>
+        <p>
+            Final-Year Computer Science student with strong foundation in
+            Java, Object-Oriented Programming, system design, and structured
+            problem-solving. Passionate about building efficient and scalable applications.
+        </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+        <h2 class="section-title">Technical Expertise</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-block">
+                <h3>Programming</h3>
+                <p>Java (Advanced), JavaScript, Object-Oriented Programming</p>
+            </div>
+
+            <div class="skill-block">
+                <h3>Database & Storage</h3>
+                <p>SQLite, File Handling, Local Storage</p>
+            </div>
+
+            <div class="skill-block">
+                <h3>Web Development</h3>
+                <p>HTML5, CSS3, Responsive UI Design</p>
+            </div>
+
+            <div class="skill-block">
+                <h3>Tools & Platforms</h3>
+                <p>Git, GitHub, VS Code</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="project-card">
+            <h3>Personal Finance Manager (Java)</h3>
+            <p>
+                A modular console-based finance management system built using
+                Object-Oriented Programming principles with file persistence.
+            </p>
+            <p><strong>Tools:</strong> Java, OOP, File Handling</p>
+            <p><strong>Learned:</strong> Clean architecture, balance computation, data persistence</p>
+            <a href="https://github.com/AswiniS05/FinanceManager" target="_blank" class="btn">View on GitHub</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Smart Task Manager (JavaScript)</h3>
+            <p>
+                A responsive task management web application featuring state filtering,
+                DOM manipulation, and persistent local storage.
+            </p>
+            <p><strong>Tools:</strong> HTML, CSS, JavaScript</p>
+            <p><strong>Learned:</strong> State management, event handling, UI interactivity</p>
+            <a href="https://github.com/AswiniS05/To_Do_List" target="_blank" class="btn">View on GitHub</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Slack Spam Detection – Hackathon Project</h3>
+            <p>
+                Built an AI-based Slack spam detection system during a no-code hackathon.
+                Automated spam detection and AI-powered response generation.
+            </p>
+            <p><strong>Tools:</strong> Pipedream, Slack API, AI Integration</p>
+            <p><strong>Focus:</strong> Workflow automation & intelligent response handling</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Barcode Student Attendance System</h3>
+            <p>
+                Designed a barcode-based attendance system to prevent proxy attendance
+                and automate late marking using time validation.
+            </p>
+            <p><strong>Tools:</strong> Java, JavaFX, SQLite</p>
+            <p><strong>Focus:</strong> System workflow design & validation logic</p>
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+   <!-- CONTACT -->
+<section id="contact" class="section">
+    <h2 class="section-title">Contact</h2>
+
+    <div class="contact-card">
+        <p><strong>Email:</strong> saswini548@gmail.com</p>
+        <p><strong>Phone:</strong> 9360343331</p>
+
+        <div class="social-links">
+            <a href="https://github.com/AswiniS05" target="_blank" class="social-btn github">
+                GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/in/saswini/" target="_blank" class="social-btn linkedin">
+                LinkedIn
+            </a>
+        </div>
+    </div>
+</section>
+
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
